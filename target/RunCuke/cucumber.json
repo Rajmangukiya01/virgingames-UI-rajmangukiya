@@ -1,0 +1,196 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3745578301,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "As a user I can select any option",
+        "description": "",
+        "id": "check-the-functionality;as-a-user-i-can-select-any-option",
+        "after": [
+          {
+            "result": {
+              "duration": 202200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 85800200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on home page",
+            "match": {
+              "location": "PageSteps.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 191368300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I can click on online slots",
+            "match": {
+              "location": "PageSteps.iCanClickOnOnlineSlots()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 503753300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I can verify \"Play Online Slots at Virgin Games\" text",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Play Online Slots at Virgin Games",
+                  "offset": 14
+                }
+              ],
+              "location": "PageSteps.iCanVerifyText(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 9,
+            "value": "#  @smoke"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 2154118500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "As a user I can search any games",
+        "description": "",
+        "id": "check-the-functionality;as-a-user-i-can-search-any-games",
+        "after": [
+          {
+            "result": {
+              "duration": 39000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am on home page",
+            "match": {
+              "location": "PageSteps.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 236109399,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on search button",
+            "match": {
+              "location": "SearchSteps.iClickOnSearchButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 942090300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I can enter name \"Double Bubble\" of the game",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Double Bubble",
+                  "offset": 18
+                }
+              ],
+              "location": "SearchSteps.iCanEnterNameOfTheGame(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 169118900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I can select a game",
+            "match": {
+              "location": "SearchSteps.iCanSelectAGame()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 553775001,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I can verify the game name \"Double Bubble\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Double Bubble",
+                  "offset": 28
+                }
+              ],
+              "location": "SearchSteps.iCanVerifyTheGameName(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check the functionality",
+    "description": "As a user I can select any option",
+    "id": "check-the-functionality",
+    "keyword": "Feature",
+    "uri": "virgingames.feature"
+  }
+]
